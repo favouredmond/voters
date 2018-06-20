@@ -1,0 +1,59 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+        <!-- title -->
+        <title>Voters_Registration</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/home/favour/Desktop/Voters registerartion/voters.css">
+    </head>
+    <body>
+        
+       
+        <div class="Registrn">
+
+            <!-- navbar -->
+            <div class="navbar"> 
+                <div class="logo">         
+                    <a href="#" class="inner-link">
+                        <img src="https://omojuwa.com/wp-content/uploads/2015/05/pdp-logo.gif"></a>
+                </div>
+            </div>
+
+            <div class="Registrn-content">
+                <h2>Candidates Registration</h2>
+                <form action="#">
+                    <input type="text" placeholder="Email" name="email" required> 
+                    <br>
+                    <br>
+               
+                    <select>
+                        <option>Select Position </option>
+                        <option>President</option>
+                        <option>Governor</option>
+                        <option>Secretary</option>
+                    </select>
+                    <br>
+                    <br>
+                    <div class="uploads">
+                        <div class="passport">
+                            <label for="passport">Upload Passport</label>
+                            <input type="file" id="passport" name="pic" accept="image/*">
+                            <input type="hidden" name="MAX_FILE_SIZE" value="4194304">
+                        </div>
+
+                        <div class="credentials">
+                            <label for="credentials">Upload Credentials</label>
+                            <input type="file" id="credentials" name="doc">
+                            <input type="hidden" name="MAX_FILE_SIZE" value="4194304">
+                        </div>
+                    </div>
+
+                    <button type="submit"> Submit</button>
+                </form>
+              
+            </div>   
+        </div>
+    </body>
+</html>
